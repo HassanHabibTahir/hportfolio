@@ -1,228 +1,441 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Resume - H</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Resume - Personal Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <!-- Favicons -->
+    <link href="assets/logo.jpg" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Personal
   * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
   * Updated: Nov 04 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="resume-page">
+  <body class="resume-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">Personal</h1>
+        </a>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html" class="active">Resume</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Dropdown</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+              <ul>
+                <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown">
+                  <a href="#"
+                    ><span>Deep Dropdown</span>
+                    <i class="bi bi-chevron-down toggle-dropdown"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header>
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Personal</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html" class="active">Resume</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-    </div>
-  </header>
-
-  <main class="main">
-
-    <!-- Page Title -->
-    <div class="page-title" data-aos="fade">
-      <div class="heading">
-        <div class="container">
-          <div class="row d-flex justify-content-center text-center">
-            <div class="col-lg-8">
-              <h1>Resume</h1>
-              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+    <main class="main">
+      <!-- Page Title -->
+      <div class="page-title" data-aos="fade">
+        <div class="heading">
+          <div class="container">
+            <div class="row d-flex justify-content-center text-center">
+              <div class="col-lg-8">
+                <h1>Resume</h1>
+                <p class="mb-0">
+                  I am an experienced software engineer with a strong background
+                  in application development and project management. Renowned
+                  for my efficient problem-solving skills and my ability to
+                  drive projects to successful completion, I consistently
+                  deliver impactful results. My passion lies in leveraging
+                  cutting-edge technologies to craft innovative solutions that
+                  address real-world challenges.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <nav class="breadcrumbs">
+        <!-- <nav class="breadcrumbs">
         <div class="container">
           <ol>
             <li><a href="index.html">Home</a></li>
             <li class="current">Resume</li>
           </ol>
         </div>
-      </nav>
-    </div><!-- End Page Title -->
+      </nav> -->
+      </div>
+      <!-- End Page Title -->
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
+      <!-- Resume Section -->
+      <section id="resume" class="resume section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title">Projects</h3>
 
-      <div class="container">
+              <div class="resume-item pb-0">
+                <h4>EasyContractPro</h4>
+                <p>
+                  <em>
+                    EasyContractPro A revolutionary real estate project that
+                    simplifies contract writing for agents by integrating
+                    cutting-edge AI technology.</em
+                  >
+                </p>
+                <ul>
+                  <li>
+                    Designed and developed responsive user interfaces using
+                    React.js, improving user engagement.
+                  </li>
+                  <li>
+                    Developed RESTful APIs using Node.js, Mongoose, and
+                    server-side logic for data management and authentication,
+                    enhancing data processing efficiency.
+                  </li>
+                  <li>
+                    Implemented DocuSign for signatures, revolutionizing
+                    e-signatures and leading the forefront of Intelligent
+                    Agreement Management (IAM).
+                  </li>
+                </ul>
+              </div>
+              <div class="resume-item pb-0">
+                <h4>Stockclubs</h4>
+                <p>
+                  <em>
+                    A FAANG investing community that helps its members make
+                    better financial decisions with insights provided by AI and
+                    the collective wisdom of their trusted friends and
+                    colleagues.</em
+                  >
+                </p>
+                <ul>
+                  <li>
+                    Designed and developed responsive user interfaces using
+                    React.js, increasing user satisfaction.
+                  </li>
+                  <li>
+                    Node.js API integration using AWS, React Query, and Context
+                    API, which reduced data retrieval time by 40% and improved
+                    overall system performance.
+                  </li>
+                  <li>Implemented DocuSign for signatures.</li>
+                </ul>
+              </div>
+              <div class="resume-item pb-0">
+                <h4>Seek Global Network</h4>
+                <p>
+                  <em>
+                    An online advertising platform that sells advertising and
+                    pays entrepreneurs cashback rewards for viewing ads and
+                    selling advertising to others if they choose.</em
+                  >
+                </p>
+                <ul>
+                  <li>
+                    Designed and developed responsive user interfaces using
+                    React.js, improving user interaction.
+                  </li>
+                  <li>
+                    Implemented custom views, forms, and dashboards for project
+                    management, enhancing efficiency.
+                  </li>
+                  <li>
+                    Developed RESTful APIs using Node.js, Sequelize, SQL, and
+                    server-side logic for data management and authentication,
+                    reducing API response time.
+                  </li>
+                </ul>
+              </div>
+              <div class="resume-item pb-0">
+                <h4>TBlocksW</h4>
+                <p>
+                  <em
+                    >Is the first 3d NFT collectible project on the Tron
+                    blockchain with cool characters. Trc-721 tblocks are meant
+                    to be the NFT revolution on Tron and create a Tron NFT
+                    world! There are 20.000 tblocks in total. All tblocks are
+                    being minted randomly.</em
+                  >
+                </p>
+                <ul>
+                  <li>
+                    Designed and developed responsive user interfaces using
+                    React.js .
+                  </li>
+                  <li>
+                    Developed the server-side API for tBlockSw, implementing
+                    blockchain on Node.js and integrating it with the frontend
+                  </li>
+                  <li>
+                    Implemented NFT minting using blockchain with Web3 wallets.
+                  </li>
+                  <li>
+                    Created the game's API in Node.js, enabling the addition of
+                    game scores.
+                  </li>
+                  <li>
+                    Saved the image on OpenSea whenever an NFT was minted.
+                  </li>
+                </ul>
+              </div>
+              <div class="resume-item pb-0">
+                <h4>Checkout App</h4>
+                <p>
+                  <em>
+                    Developed a React Native social media app with real-time
+                    chat features, leveraging a robust backend and optimized
+                    image storage..</em
+                  >
+                </p>
+                <ul>
+                  <li>
+                    Built the server for the React Native social media app using
+                    Node.js, Express.js, and MongoDB, integrating real-time chat
+                    features with Socket.io.
+                  </li>
+                  <li>
+                    Enhanced image storage efficiency by implementing AWS S3 and
+                    CloudFront.
+                  </li>
+                  <li>
+                    Deployed the application on EC2 to ensure a smooth user
+                    experience.
+                  </li>
+                </ul>
+              </div>
 
-        <div class="row">
+              <h3 class="resume-title">Education</h3>
+              <div class="resume-item">
+                <h4>Master of Fine Arts &amp; Graphic Design</h4>
+                <h5>2015 - 2016</h5>
+                <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+                <p>
+                  Qui deserunt veniam. Et sed aliquam labore tempore sed
+                  quisquam iusto autem sit. Ea vero voluptatum qui ut
+                  dignissimos deleniti nerada porti sand markend
+                </p>
+              </div>
+              <!-- Edn Resume Item -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sumary</h3>
+              <div class="resume-item">
+                <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
+                <h5>2010 - 2014</h5>
+                <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+                <p>
+                  Quia nobis sequi est occaecati aut. Repudiandae et iusto quae
+                  reiciendis et quis Eius vel ratione eius unde vitae rerum
+                  voluptates asperiores voluptatem Earum molestiae consequatur
+                  neque etlon sader mart dila
+                </p>
+              </div>
+              <!-- Edn Resume Item -->
+            </div>
 
-            <div class="resume-item pb-0">
-              <h4>Brandon Johnson</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <h3 class="resume-title">Professional Experience</h3>
+              <div class="resume-item">
+                <h4>Full Stack MERN Developer (Freelance)</h4>
+                <h5>Apr 2024 - Current</h5>
+                <p><em>Remote, Germany </em></p>
+                <ul>
+                  <li>
+                    Experienced in mobile app development and backend services,
+                    delivering high-quality solutions tailored to client needs.
+                    Skilled in building cross-platform mobile applications using
+                    React Native and creating scalable backend systems with
+                    Node.js and MySQL. Expertise in API integration, database
+                    optimization, and cloud deployment (AWS). Collaborates
+                    effectively with clients to ensure seamless functionality,
+                    performance optimization, and user satisfaction.
+                  </li>
+                </ul>
+              </div>
+              <!-- Edn Resume Item -->
 
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div><!-- Edn Resume Item -->
+              <div class="resume-item">
+                <h4>Software Engineer at CodixSol</h4>
+                <h5>Nov 2023 - Present</h5>
+                <p><em>Hybrid Faisalabad, Punjab</em></p>
+                <ul>
+                  <li>
+                    Specializing in mobile application development and robust
+                    backend solutions using Node.js and MySQL. Proficient in
+                    building cross-platform mobile apps with React Native and
+                    scalable backend architectures to optimize performance and
+                    security. Skilled in API integration, SQL query
+                    optimization, and cloud deployment on platforms like AWS.
+                    Collaborates with cross-functional teams to deliver
+                    high-quality, user-focused solutions.
+                  </li>
+                </ul>
+              </div>
+              <!-- Edn Resume Item -->
 
-            <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-            </div><!-- Edn Resume Item -->
+              <div class="resume-item">
+                <h4>Software Engineer at Sparkix Technologies</h4>
+                <h5>Mar 2024 - Aug 2024</h5>
+                <p><em>Remote Lahore</em></p>
+                <ul>
+                  <li>
+                    At Sparkix Technologies, I specialized in full-stack
+                    development and integrating AI solutions into web
+                    applications. I developed scalable, data-driven applications
+                    using React, Node.js, and MongoDB while implementing
+                    AI-powered features to enhance functionality. Proficient in
+                    API development, cloud deployment (AWS), and performance
+                    optimization. Contributed to integrating intelligent
+                    automation and predictive analytics into projects, ensuring
+                    innovative and efficient solutions. Focused on delivering
+                    secure, high-quality software tailored to business needs.
+                  </li>
+                </ul>
+              </div>
 
+              <div class="resume-item">
+                <h4>Software Engineer at BlocTech Solutions</h4>
+                <h5>Dec/2020 – Nov/2023</h5>
+                <p><em>Hybrid Faisalabad</em></p>
+                <ul>
+                  <li>
+                    At BlocTech Solutions, I advanced from Junior Developer to
+                    Software Engineer, gaining expertise in full-stack
+                    development and blockchain technologies. I developed
+                    scalable web and decentralized applications (DApps) using
+                    React, Next.js, Node.js, MongoDB, and web3.js. Proficient in
+                    AWS cloud deployment, smart contract integration, and
+                    performance optimization. I contributed to architectural
+                    decisions and mentored junior developers, fostering team
+                    growth. My work focused on delivering secure, high-quality,
+                    and innovative solutions for web and blockchain projects.
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
-              <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-          </div>
-
         </div>
+      </section>
+      <!-- /Resume Section -->
+    </main>
 
-      </div>
-
-    </section><!-- /Resume Section -->
-
-  </main>
-
-  <footer id="footer" class="footer dark-background">
-    <div class="container">
-      <h3 class="sitename">Personal</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-      <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-skype"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
+    <footer id="footer" class="footer dark-background">
       <div class="container">
-        <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Personal</strong> <span>All Rights Reserved</span>
+        <h3 class="sitename">Personal</h3>
+        <p>
+          Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni
+          eligendi fuga maxime saepe commodi placeat.
+        </p>
+        <div class="social-links d-flex justify-content-center">
+          <a href=""><i class="bi bi-twitter-x"></i></a>
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+          <a href=""><i class="bi bi-skype"></i></a>
+          <a href=""><i class="bi bi-linkedin"></i></a>
         </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <div class="container">
+          <div class="copyright">
+            <span>Copyright</span>
+            <strong class="px-1 sitename">Personal</strong>
+            <span>All Rights Reserved</span>
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you've purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
